@@ -1,9 +1,7 @@
 import 'dart:async';
 import 'package:get/get.dart';
-
 import 'package:flutter/material.dart';
 import 'package:zing_z/modules/home/home_page.dart';
-
 import '../../network/styles/themes/app_colors.dart';
 
 class SplashPage extends StatefulWidget {
@@ -17,8 +15,12 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     super.initState();
     Timer(const Duration(seconds: 3), () {
-      Get.offAll(() => const HomePage());
-    });
+ Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => HomePage()),
+      );    
+     } 
+   );
   }
 
   @override

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zing_z/modules/home/home_page.dart';
 import 'modules/splash/splash.dart';
 import 'network/styles/themes/app_colors.dart';
 
@@ -7,6 +8,9 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+
+
+  
   const MyApp({super.key});
 
   // This widget is the root of your application.
@@ -23,7 +27,7 @@ class MyApp extends StatelessWidget {
             .textTheme
             .apply(bodyColor: AppColors.white, displayColor: AppColors.white),
       ),
-      home: const SplashPage(),
+      home: const HomePage(),
     );
   }
 }
