@@ -27,9 +27,6 @@ class _HomePageState extends State<HomePage> {
     Text(
       'Index 2: School',
     ),
-    Text(
-      'Index 3: Settings',
-    ),
      Text(
       'Index 3: Settings',
     ),
@@ -43,6 +40,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.darkBlueIllustration,
       body: Container(
         child: _widgetOptions.elementAt(_selectedIndex),
         // bucket: bucket,
@@ -51,15 +49,9 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           
-          BottomNavigationBarItem(
-            
+          BottomNavigationBarItem( 
             icon: Icon(Icons.home,),
             label: 'Thư viện',
-            backgroundColor: AppColors.darkGrey,
-          ),
-          BottomNavigationBarItem(
-            icon: AssetPath.icondelivery,
-            label: 'khám phá',
             backgroundColor: AppColors.darkGrey,
           ),
           BottomNavigationBarItem(

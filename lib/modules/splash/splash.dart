@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:get/get.dart';
+// import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:zing_z/modules/home/home_page.dart';
 import '../../network/styles/themes/app_colors.dart';
@@ -17,7 +17,7 @@ class _SplashPageState extends State<SplashPage> {
     Timer(const Duration(seconds: 3), () {
  Navigator.push(
     context,
-    MaterialPageRoute(builder: (context) => HomePage()),
+    MaterialPageRoute(builder: (context) =>const HomePage()),
       );    
      } 
    );

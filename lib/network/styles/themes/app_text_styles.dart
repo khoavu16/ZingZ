@@ -26,4 +26,16 @@ class AppTextStyles {
     fontSize: 16,
     color: AppColors.white,
   );
+    static const heading1 = TextStyle(
+     fontSize:20,
+     color: AppColors.white,
+   );
+    static const text1 = TextStyle(
+     fontSize:17,
+     color: AppColors.text1,
+   );
+   static const text2 = TextStyle(
+     fontSize:16,
+     color: AppColors.text2,
+   );
 }

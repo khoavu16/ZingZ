@@ -6,7 +6,8 @@ class AppColors {
   static const grey = Colors.grey;
   static const darkBlueIllustration = Color(0xFF0a162a);
   static const darkGrey = Color(0xFF1b2235);
-
+  static const text2 = Color(0xff8e98a8);
+  static const text1 = Color(0xfff7fbfe);
   static const gradienIcon = LinearGradient(
     colors: <Color>[
       Color(0xff8AD4EC),
@@ -16,7 +17,5 @@ class AppColors {
     ],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
-    
   );
-
 }
