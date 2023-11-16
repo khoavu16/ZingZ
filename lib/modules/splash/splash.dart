@@ -1,8 +1,7 @@
 import 'dart:async';
-// import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:zing_z/modules/home/home_page.dart';
-import '../../network/styles/themes/app_colors.dart';
+import 'package:zing_z/network/styles/themes/app_colors.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -36,6 +35,7 @@ class _SplashPageState extends State<SplashPage> {
           Container(
             width: size.width /2,
             height: size.height/5,
+            
             margin: const EdgeInsets.symmetric(vertical: 18),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(14),

@@ -4,38 +4,23 @@ import 'package:zing_z/network/styles/themes/app_colors.dart';
 class AppTextStyles {
   static const button = TextStyle(
     fontSize: 20,
-    color: AppColors.white,
+    color: Colors.white,
   );
-  static const dangkyngay = TextStyle(
-    fontSize: 16,
-    color: AppColors.white,
+  static const appbar = TextStyle(
+    fontSize: 24,
+    color: Colors.white,
   );
-  static const ngaysinh = TextStyle(
-    fontSize: 16,
-    color: AppColors.grey,
-  );
-  static const h2 = TextStyle(
+  static const name1lib = TextStyle(
     fontSize: 20,
-    color: AppColors.white,
+    color: Colors.white,
   );
-   static const h1CG = TextStyle(
+  static const name2lib = TextStyle(
+    fontSize: 17,
+    color: AppColors.text1,
+    fontWeight:FontWeight.bold
+  );
+  static const name3lib = TextStyle(
     fontSize: 16,
-    color: AppColors.grey,
+    color: AppColors.text2,
   );
-   static const h1 = TextStyle(
-    fontSize: 16,
-    color: AppColors.white,
-  );
-    static const heading1 = TextStyle(
-     fontSize:20,
-     color: AppColors.white,
-   );
-    static const text1 = TextStyle(
-     fontSize:17,
-     color: AppColors.text1,
-   );
-   static const text2 = TextStyle(
-     fontSize:16,
-     color: AppColors.text2,
-   );
 }
